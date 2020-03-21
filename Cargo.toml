@@ -1,0 +1,14 @@
+[package]
+name = "franz"
+description = "A kafka client"
+license = "MIT"
+version = "0.1.0"
+authors = ["inkyu <gofiri@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0", features = ["io-util", "macros", "rt-core", "stream", "tcp"] }
+failure = "0"
+bincode = "1"
+serde = "1"
+serde_derive = "1"
